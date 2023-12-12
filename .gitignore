@@ -2,3 +2,4 @@ byteorder
 cmake-build-debug
 bytebyteorder.dSYM
 build
+.idea
