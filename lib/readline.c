@@ -5,6 +5,7 @@ static int	read_cnt;   // 追踪 read_buf 中剩余的未读字符数
 static char	*read_ptr;  // 指向 read_buf 中下一个要读取的字符
 static char	read_buf[MAXLINE];  // 用于存储从文件描述符读取的数据
 
+// 因为用了静态变量，所以是不可重入函数，非线程安全
 static ssize_t
 my_read(int fd, char *ptr)
 {
@@ -25,6 +26,7 @@ again:
 	return(1);
 }
 
+// 调用了不可重入函数，也是不可重入函数
 // fd:文件描述符 vptr:是指向调用者提供的缓冲区的指针，maxlen:缓冲区的最大长度。
 ssize_t
 readline(int fd, void *vptr, size_t maxlen)
