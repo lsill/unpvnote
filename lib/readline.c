@@ -34,7 +34,7 @@ readline(int fd, void *vptr, size_t maxlen)
 	ssize_t	n, rc;  // 记录已经读取的字符数
 	char	c, *ptr;    // 临时存储从my_read读取的字符
 
-	ptr = vptr; // 让ptr指向缓冲区
+	ptr = vptr; // 让ptr指向缓冲区 (void*) 转换为 (char*) 是因为指针必须按照所读或者所写的字节数增长，但c但允许void指针增长（c编译器不知道void指向的数据类型）
 	for (n = 1; n < maxlen; n++) {
 		if ( (rc = my_read(fd, &c)) == 1) { // == 1成功读取
 			*ptr++ = c; // ptr指向位置的值更新为c，ptr指向下一个位置

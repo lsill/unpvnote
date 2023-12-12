@@ -8,7 +8,7 @@ writen(int fd, const void *vptr, size_t n)
 	ssize_t		nwritten;   // 存储单次 write 调用写入的字节数
 	const char	*ptr;   // ptr 是一个字符指针，指向当前写入位置，加const是保证指向位置的值不会被修改 也就是*ptr = val是不合法的
     // 初始化
-	ptr = vptr;
+	ptr = vptr; // (void*) 转换为 (char*) 是因为指针必须按照所读或者所写的字节数增长，但c但允许void指针增长（c编译器不知道void指向的数据类型）
 	nleft = n;
 	while (nleft > 0) {
 		if ( (nwritten = write(fd, ptr, nleft)) <= 0) {

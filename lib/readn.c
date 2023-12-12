@@ -10,7 +10,7 @@ readn(int fd, void *vptr, size_t n)
 	ssize_t	nread;  // 单词read读取的字节数
 	char	*ptr;   // 指向当前读取的位置
 
-	ptr = vptr; // 指向读取开始的位置
+	ptr = vptr; // 指向读取开始的位置 (void*) 转换为 (char*) 是因为指针必须按照所读或者所写的字节数增长，但c但允许void指针增长（c编译器不知道void指向的数据类型）
 	nleft = n;
 	while (nleft > 0) {
 		if ( (nread = read(fd, ptr, nleft)) < 0) {
