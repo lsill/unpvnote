@@ -6,3 +6,5 @@ build
 build
 intro/build
 demo/build
+tcpcliserv/build
+tcpcliserv/cli

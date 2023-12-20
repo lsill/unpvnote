@@ -17,4 +17,17 @@
 #### 4.10 获取套接字的地址族
 - [sockfd_to_family](https://github.com/lsill/unpvnote/blob/main/lib/sockfd_to_family.c)
 #### 习题
-[QA](https://github.com/lsill/unpvnote/blob/main/QA/fourth.md)
+[Q&A](https://github.com/lsill/unpvnote/blob/main/QA/fourth.md)
+
+### 5. TCP 客户/服务程序示例
+####  5.2 TCP回射服务器程序：main函数
+- [tcpserv01](https://github.com/lsill/unpvnote/blob/main/tcpcliserv/tcpserv01.c)
+#### 5.3 TCP 回射服务器程序:str_echo 函数
+- [strecho](https://github.com/lsill/unpvnote/blob/main/lib/str_echo.c)
+#### 5.4 TCP 回射客户程序:main 函数
+- [tcpcli01](https://github.com/lsill/unpvnote/blob/main/tcpcliserv/tcpcli01.c)
+#### 5.5 TCP回射客户程序:str_cli函数
+- [str_cli](https://github.com/lsill/unpvnote/blob/main/lib/str_cli.c)
+#### 5.8 POSIX 信号处理
+- [str_cli](https://github.com/lsill/unpvnote/blob/main/lib/signal.c)
+
