@@ -29,5 +29,9 @@
 #### 5.5 TCP回射客户程序:str_cli函数
 - [str_cli](https://github.com/lsill/unpvnote/blob/main/lib/str_cli.c)
 #### 5.8 POSIX 信号处理
-- [str_cli](https://github.com/lsill/unpvnote/blob/main/lib/signal.c)
-
+- [signal](https://github.com/lsill/unpvnote/blob/main/lib/signal.c)
+#### 5.9 处理 SIGCHLD信号
+- [sig_chld](https://github.com/lsill/unpvnote/blob/main/tcpcliserv/sigchldwait.c)
+#### 5.10 wait和waitid 函数
+- [sig_chld(pid)](https://github.com/lsill/unpvnote/blob/main/tcpcliserv/sigchldwaitpid.c)
+- [修改后的ser示例](https://github.com/lsill/unpvnote/blob/main/tcpcliserv/tcpserv04.c)
