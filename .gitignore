@@ -8,3 +8,4 @@ intro/build
 demo/build
 tcpcliserv/build
 tcpcliserv/cli
+sockopt/build
