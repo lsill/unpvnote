@@ -36,7 +36,7 @@ main(int argc, char **argv)
 		rset = allset;		/* structure assignment */
 		nready = Select(maxfd+1, &rset, NULL, NULL, NULL);
 
-		if (FD_ISSET(listenfd, &rset)) {	/* new client connection */
+		if (FD_ISSET(listenfd, &rset)) {	/* new client connection */ // 如果监听描述符 listenfd 就绪，就表示有新的连接，走入增加新链接逻辑
 			clilen = sizeof(cliaddr);
 			connfd = Accept(listenfd, (SA *) &cliaddr, &clilen);
 #ifdef	NOTDEF  // 预处理指令，存在NOTDEF  走斤这里
