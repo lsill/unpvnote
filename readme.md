@@ -70,7 +70,8 @@
 - [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/ipv6_socket_opt.md)
 #### 7.9 TCP 套接字选项
 - [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/tcp_socket_opt.md)
-
+#### 7.10 SCTP 套接字选项
+- [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/sctp_socket_opt.md)
 
 
 
