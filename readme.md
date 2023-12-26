@@ -64,3 +64,13 @@
 - [checkopts](https://github.com/lsill/unpvnote/blob/main/sockopt/checkopts.c)
 #### 7.5 通用套接字选项
 - [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/common_socket_opt.md)
+#### 7.6 IPv4 套接字选项
+- [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/ipv4_socket_opt.md)
+#### 7.8 IPv6 套接字选项
+- [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/ipv6_socket_opt.md)
+#### 7.9 TCP 套接字选项
+- [选项详情](https://github.com/lsill/nbook/blob/main/content/UNIX/tcp_socket_opt.md)
+
+
+
+
