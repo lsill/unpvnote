@@ -13,8 +13,8 @@ add_library(${PROJECT_NAME} SHARED
         #connect_timeo.c
         #daemon_inetd.c
         #daemon_init.c
-        #dg_cli.c
-        #dg_echo.c
+        dg_cli.c
+        dg_echo.c
         )
 
 target_include_directories(${PROJECT_NAME}

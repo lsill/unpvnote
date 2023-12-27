@@ -9,3 +9,4 @@ demo/build
 tcpcliserv/build
 tcpcliserv/cli
 sockopt/build
+udpcliserv/build
