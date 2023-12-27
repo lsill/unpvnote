@@ -6,7 +6,7 @@ add_subdirectory(../lib lib)
 
 target_include_directories(lib PUBLIC ../lib)
 
-add_executable(${PROJECT_NAME} checkopts.c)
+add_executable(${PROJECT_NAME} rcvbuf.c)
 
 target_link_libraries(${PROJECT_NAME}
         lib)
