@@ -12,3 +12,7 @@
 - [Link](https://github.com/lsill/nbook/blob/main/content/UNIX/nToAddr/getaddrinfo.md)
 #### 11.7 gai_strerror函数
 - [Link](https://github.com/lsill/nbook/blob/main/content/UNIX/nToAddr/gai_strerror.md)
+#### 11.8 freeaddrinfo 函数
+- [Link](https://github.com/lsill/nbook/blob/main/content/UNIX/nToAddr/freeaddrinfo.md)
+#### 11.9 getaddrinfo 函数：IPV6
+- [Link](https://github.com/lsill/nbook/blob/main/content/UNIX/nToAddr/getaddrinfo_6.md)
