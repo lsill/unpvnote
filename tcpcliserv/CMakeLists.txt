@@ -6,7 +6,7 @@ add_subdirectory(../lib lib)
 
 target_include_directories(lib PUBLIC ../lib)
 
-add_executable(${PROJECT_NAME} tcpcli01.c)
+add_executable(${PROJECT_NAME} ../udpcliserv/dgecholoop1.c)
 
 target_link_libraries(${PROJECT_NAME}
         lib)

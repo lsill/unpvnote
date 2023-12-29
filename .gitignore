@@ -10,3 +10,4 @@ tcpcliserv/build
 tcpcliserv/cli
 sockopt/build
 udpcliserv/build
+name/build

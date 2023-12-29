@@ -15,4 +15,4 @@
 #### 7.11 fcntl 函数
 - [fcntl参数](https://github.com/lsill/nbook/blob/main/content/UNIX/fcntl_function.md)
 #### Q&A
-- [Q&A](https://github.com/lsill/unpvnote/blob/main/QA/sneveth.md)
+- [Q&A](https://github.com/lsill/unpvnote/blob/main/QA/seventh.md)

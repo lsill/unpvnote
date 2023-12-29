@@ -15,6 +15,7 @@ add_library(${PROJECT_NAME} SHARED
         #daemon_init.c
         dg_cli.c
         dg_echo.c
+        signal.c
         )
 
 target_include_directories(${PROJECT_NAME}
